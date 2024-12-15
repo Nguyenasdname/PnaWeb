@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
+
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
+
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet');
+
+
+*{
+    margin: 0;
+}
+.body{
+    overflow-x: hidden;
+}
+
+.container{
+    background-color: rgb(246, 167, 193);
+    font-family: "Montserrat",sans-serif;  
+    color: white;
+}
+
+.header{
+    
+    margin-top: 0;
+    width: 100%;
+    background-color: rgb(246, 167, 193);
+    z-index: 0;
+   
+}
+
+.header_nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 10vw;
+}
+.icon_page{
+   
+}
+
+.icon_page img{
+    width: 100px;
+    height: 100px;     
+}
+
+.item_nav_bar{
+    display: flex;
+}
+.item_nav_bar span{
+    width: 16vw;
+}
+.item_nav_bar a{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    border: 1px;
+    border-radius: 20px;
+    background-color: rgb(177, 110, 75);
+    padding: 0.5vw 2vw;
+    transition: 0.5s ease;
+}
+
+.item_nav_bar a:hover{
+    background-color: rgb(92, 225, 230);
+}
+
+
+.nav_contact_icon{
+    display: flex;
+}
+
+.nav_contact_icon a{
+    width: 120px;
+}
+.shopingIcon{
+    width: 20px;
+    height: 18px;
+    background-color: rgb(177, 110, 75);
+    padding: 0.5vw 1.5vw;
+    border-radius: 20px;
+}
+
+.phoneIcon{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(177, 110, 75);
+    padding: 0.3vw 1.5vw;
+    border-radius: 20px;
+}
+
+.shopingIcon:hover{
+    background-color: rgb(92, 225, 230);
+}
+
+.phoneIcon:hover{
+    background-color: rgb(92, 225, 230);
+}
+
+.body1{
+    position: relative;
+    width: 100%;
+    height: 590px;
+}
+.background_body1{
+    background-image: url(/assets/img/img.png);
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: 0.8s ease;
+}
+.background_body1:hover{
+    background-image: url(/assets/img/imgHover.png);
+}
+
+.body1_content{
+    position: absolute;
+    margin-top: 12vh;
+    margin-left: 8vw;
+    z-index: 1;
+}
+
+.text1{
+    text-shadow: 0.3px 0.3px 0 black;
+    font-size: 70px;
+    color: white;
+    font-weight: bolder;
+}
+.text2{
+    font-size: 80px;
+    font-family: "Bowlby One SC",sans-serif;
+    color: rgb(252, 240, 207);
+}
+
+.body2{
+    position: relative;
+    height: 580px;
+}
+.body2_img{
+    top: 5%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.body2_content{
+    position: absolute;
+    top:10%;
+    z-index: 1; /* Đặt z-index cao hơn để đè lên hình ảnh */
+    margin-left: 22vw;
+    margin-right: 38vw;
+    z-index: 1;
+    font-size: 35px;
+    font-weight: 600;
+}
+.imgNgon{
+    
+}
+.body2_best_seller{
+    position: absolute;
+    bottom: 0;
+    font-family: "Bowlby One SC",sans-serif;
+    margin-left: 16vw;
+    margin-bottom: 8px;
+    
+
+}
+.body2_best_seller a{
+    border: 1px;
+    font-size: 50px;
+    background-color: white;
+    text-decoration: none;
+    color: rgb(92, 225, 230);
+    padding: 0.01vw 20vw;
+    border-radius: 40px ;
+    transition: 0.5s ease;
+}
+.body2_best_seller a:hover{
+    background-color: rgb(92, 225, 230);
+    color: white;
+}
+
+.body3{
+    overflow: hidden;
+    height: 727px;
+}
+.body3 img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.footer{
+    position: relative;
+}
+.footer_item{
+    display: flex;
+}
+.footer_icon{
+    width: 350px;
+}
+.footer_icon img{
+    width: 100%;
+    margin-top: 10vh;
+}
+.footer_nav{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    font-family: "Montserrat",sans-serif;
+    width: 600px;
+}
+
+.footer_nav_item2 a {
+    display: block; /* Đảm bảo mỗi liên kết chiếm toàn bộ chiều rộng của phần tử cha */
+    margin-bottom: 5px; /* Khoảng cách giữa các liên kết */
+}
+
+.footer_nav_title{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.footer_nav_item1{
+    margin-bottom: 30px;
+}
+.footer_nav_item1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border: 1px;
+    background-color: rgb(138, 207, 219);
+    border-radius: 30px;
+    padding: 0.7vw 4vw;
+    transition: 0.5s ease;
+}
+
+.footer_nav_item1 a:hover{
+    color: rgb(138, 207, 219);
+    background-color: white;
+}
+.footer_nav_item2{
+    margin-bottom: 26px;
+    width: 150px;
+    line-height: 35px;
+}
+.footer_nav_item2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer_contact{
+    margin-top: 5vh;
+   
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+
+}
+.footer_contact_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+
+.footer_contact_item:nth-child(2) img{
+    margin-right: 20px;
+}
+
+.footer_contact_icon img{
+    width: 80px;
+    height: 80px;
+}
+.footer_contact_icon_ig{
+    margin-left: 20px;
+}
+
+.footer_contact_icon_ig img{
+    width: 40px;
+    height: 40px;
+}
+
+.footer_contact_link a{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.footer_coppy_right{
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    
+    bottom: 0;
+    margin-left: 45%;
+    font-size: 30px;
+}
